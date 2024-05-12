@@ -46,8 +46,8 @@ ngx_module_t  ngx_http_header_filter_module = {
 };
 
 static u_char ngx_http_server_string[] = "Server: private1" CRLF;
-static u_char ngx_http_server_full_string[] = "Server: " NGINX_VER CRLF;
-static u_char ngx_http_server_build_string[] = "Server: " NGINX_VER_BUILD CRLF;
+static u_char ngx_http_server_full_string[] = "Server: "  CRLF;
+static u_char ngx_http_server_build_string[] = "Server: "  CRLF;
 
 
 static ngx_str_t ngx_http_status_lines[] = {
